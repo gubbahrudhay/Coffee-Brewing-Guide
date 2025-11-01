@@ -173,9 +173,9 @@
             background: #f0e8dc;
         }
 
-        .types-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
+        .type{
+            display: flex;
+            flex-wrap: wrap;
             gap: 30px;
         }
 
