@@ -371,240 +371,239 @@ line-height: 1.8;
 
 @media (max-width: 1024px) {
     .brewing-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
     }
 
     .hero-content h2 {
-    font-size: 3rem;
+        font-size: 3rem;
     }
 
     .hero-content p {
-    font-size: 1.3rem;
+        font-size: 1.3rem;
     }
 
     .footer-content {
-
-    gap: 40px;
+        gap: 40px;
     }
 }
 
 
 @media (max-width: 768px) {
     .hamburger {
-    display: flex;
+        display: flex;
     }
 
     .navlinks {
-    position: fixed;
-    top: 0;
-    left: -100%;
-    transform: none;
-    flex-direction: column;
-    width: 280px;
-    height: 100vh;
-    background-color: rgba(42, 28, 20, 0.98);
-    backdrop-filter: blur(10px);
-    padding: 80px 20px 20px;
-    border-radius: 0;
-    gap: 0;
-    transition: left 0.3s ease;
-    box-shadow: 2px 0 20px rgba(0,0,0,0.3);
+        position: fixed;
+        top: 0;
+        left: -100%;
+        transform: none;
+        flex-direction: column;
+        width: 280px;
+        height: 100vh;
+        background-color: rgba(42, 28, 20, 0.98);
+        backdrop-filter: blur(10px);
+        padding: 80px 20px 20px;
+        border-radius: 0;
+        gap: 0;
+        transition: left 0.3s ease;
+        box-shadow: 2px 0 20px rgba(0,0,0,0.3);
     }
 
     .navlinks.active {
-    left: 0;
+        left: 0;
     }
 
     .navlinks li {
-    width: 100%;
-    margin-bottom: 5px;
+        width: 100%;
+        margin-bottom: 5px;
     }
 
     .navlinks a {
-    display: block;
-    padding: 15px 20px;
-    color: #f8f4f0;
-    border-radius: 8px;
-    width: 100%;
+        display: block;
+        padding: 15px 20px;
+        color: #f8f4f0;
+        border-radius: 8px;
+        width: 100%;
     }
 
     .navlinks a:hover {
-    background-color: rgba(139, 94, 60, 0.3);
-    transform: translateX(5px);
+        background-color: rgba(139, 94, 60, 0.3);
+        transform: translateX(5px);
     }
 
     .hero-content h2 {
-    font-size: 2.5rem;
+        font-size: 2.5rem;
     }
 
     .hero-content p {
-    font-size: 1.2rem;
-    padding: 0 20px 30px;
+        font-size: 1.2rem;
+        padding: 0 20px 30px;
     }
 
     .section-header h2 {
-    font-size: 2.3rem;
+        font-size: 2.3rem;
     }
 
     .section-header p {
-    font-size: 1.1rem;
-    padding: 0 20px;
+        font-size: 1.1rem;
+        padding: 0 20px;
     }
 
     .content-section {
-    padding: 60px 30px;
+        padding: 60px 30px;
     }
 
     .brewing-grid {
-    grid-template-columns: 1fr;
-    gap: 30px;
+        grid-template-columns: 1fr;
+        gap: 30px;
     }
 
     .brewing-card {
-    padding: 30px 25px;
+        padding: 30px 25px;
     }
 
     .type {
-    flex-direction: column;
+        flex-direction: column;
     }
 
     .type-card {
-    width: 100%;
+        width: 100%;
     }
 
     .footer-content {
-    flex-direction: column;
-    gap: 40px;
+        flex-direction: column;
+        gap: 40px;
     }
 
     .footer-column {
-    max-width: 100%;
+        max-width: 100%;
     }
 
     .contact-section {
-    padding: 60px 30px;
+        padding: 60px 30px;
     }
     }
 
 
     @media (max-width: 480px) {
     .hero-banner {
-    height: 80vh;
+        height: 80vh;
     }
 
     .hero-content h2 {
-    font-size: 2rem;
-    padding: 0 15px;
+        font-size: 2rem;
+        padding: 0 15px;
     }
 
     .hero-content p {
-    font-size: 1rem;
-    padding: 0 15px 25px;
+        font-size: 1rem;
+        padding: 0 15px 25px;
     }
 
     .hero-button {
-    padding: 12px 25px;
-    font-size: 1rem;
+        padding: 12px 25px;
+        font-size: 1rem;
     }
 
     .section-header h2 {
-    font-size: 1.8rem;
+        font-size: 1.8rem;
     }
 
     .section-header p {
-    font-size: 1rem;
+        font-size: 1rem;
     }
 
     .content-section {
-    padding: 40px 20px;
+        padding: 40px 20px;
     }
 
     .brewing-card {
-    padding: 25px 20px;
+        padding: 25px 20px;
     }
 
     .brewing-card h3 {
-    font-size: 1.5rem;
+        font-size: 1.5rem;
     }
 
     .brewing-card img {
-    height: 200px;
+        height: 200px;
     }
 
     .type-card {
-    padding: 25px 20px;
+        padding: 25px 20px;
     }
 
     .type-card h3 {
-    font-size: 1.4rem;
+        font-size: 1.4rem;
     }
 
     .tip-card {
-    padding: 20px 25px;
+        padding: 20px 25px;
     }
 
     .tip-card h4 {
-    font-size: 1.2rem;
+        font-size: 1.2rem;
     }
 
     .form-row input,
     .form-row textarea {
-    padding: 12px;
-    font-size: 0.95rem;
+        padding: 12px;
+        font-size: 0.95rem;
     }
 
     .form-row textarea {
-    min-height: 150px;
+        min-height: 150px;
     }
 
     .submit-btn {
-    padding: 12px 40px;
-    font-size: 1rem;
+        padding: 12px 40px;
+        font-size: 1rem;
     }
 
     footer {
-    padding: 40px 20px 0;
+        padding: 40px 20px 0;
     }
 
     .footer-content {
-    padding-bottom: 30px;
+        padding-bottom: 30px;
     }
 
     .footer-column h3 {
-    font-size: 1.2rem;
+        font-size: 1.2rem;
     }
 
     .hamburger {
-    top: 0.8rem;
-    right: 1rem;
+        top: 0.8rem;
+        right: 1rem;
     }
 
     .navlinks {
-    width: 250px;
+        width: 250px;
     }
     }
 
 
     @media (max-width: 360px) {
     .hero-content h2 {
-    font-size: 1.7rem;
+        font-size: 1.7rem;
     }
 
     .hero-content p {
-    font-size: 0.95rem;
+        font-size: 0.95rem;
     }
 
     .section-header h2 {
-    font-size: 1.6rem;
+        font-size: 1.6rem;
     }
 
     .brewing-card img {
-    height: 180px;
+        height: 180px;
     }
 
     .navlinks {
-    width: 220px;
+        width: 220px;
     }
 }
 
